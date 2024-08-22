@@ -1,0 +1,92 @@
+body {
+  font-family: Arial, sans-serif;
+  background-image: url("https://st5.depositphotos.com/1832477/65281/v/1600/depositphotos_652818914-stock-illustration-set-website-banner-templates-rehabilitation.jpg");
+  background-size: cover;
+  background-position: bottom right;
+  background-repeat: no-repeat;
+  margin: 0;
+  padding: 0;
+  height: 99vh;
+  overflow: hidden;
+}
+
+header {
+  background-color: white;
+  color: rgb(255, 43, 171);
+  padding: 10px;
+  text-align: center;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+
+header h1 {
+  text-shadow: 2px 2px 2px red;
+  font-size: 2em;
+  margin: 0;
+}
+
+main {
+  margin: 80px auto;
+  max-width: 600px;
+  background-color: transparent;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+}
+
+.box {
+  background-color: white;
+  padding: 10px;
+  border-radius: 30px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+  box-sizing: border-box;
+  position: fixed;
+}
+
+.box1 {
+  width: 480px;
+  height: 235px;
+  position: fixed;
+  top: 57px;
+  left: 0;
+}
+
+.box2 {
+  width: 615px;
+  height: 180px;
+  position: fixed;
+  top: 520px;
+  right: 0;
+}
+
+p {
+  color: #c07052;
+  font-size: 1em;
+  line-height: 1.4;
+  font-weight: bold;
+  text-shadow: 0px 0px 10px rgba(106, 90, 205, 0.8),
+    0px 0px 20px rgba(106, 90, 205, 0.6);
+}
+
+.button {
+  position: fixed;
+  right: 40px;
+  bottom: 46px;
+  padding: 10px 20px;
+  font-size: 1em;
+  color: white;
+  background-color: rgb(240, 40, 171);
+  border: none;
+  border-radius: 5px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.8),
+    0px 0px 20px rgba(0, 191, 255, 0.6), 0 3px 10px rgba(0, 0, 0, 0.5);
+  transition: box-shadow 0.3s ease-in-out, background-color 0.3s ease-in-out;
+}
