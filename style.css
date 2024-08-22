@@ -2,6 +2,7 @@ body {
   font-family: Arial, sans-serif;
   background-image: url("https://st5.depositphotos.com/1832477/65281/v/1600/depositphotos_652818914-stock-illustration-set-website-banner-templates-rehabilitation.jpg");
   background-size: cover;
+  background-size: 100% 100%;
   background-position: bottom right;
   background-repeat: no-repeat;
   margin: 0;
@@ -24,7 +25,7 @@ header {
 
 header h1 {
   text-shadow: 2px 2px 2px red;
-  font-size: 2em;
+  font-size: 2rem;
   margin: 0;
 }
 
@@ -49,24 +50,24 @@ main {
 }
 
 .box1 {
-  width: 480px;
-  height: 235px;
+  width: 700px;
+  height: 228px;
   position: fixed;
-  top: 57px;
+  top: 56px;
   left: 0;
 }
 
 .box2 {
-  width: 615px;
+  width: 715px;
   height: 180px;
   position: fixed;
-  top: 520px;
-  right: 0;
+  top: 450px;
+  right: 50px;
 }
 
 p {
   color: #c07052;
-  font-size: 1em;
+  font-size: 1rem;
   line-height: 1.4;
   font-weight: bold;
   text-shadow: 0px 0px 10px rgba(106, 90, 205, 0.8),
@@ -75,10 +76,10 @@ p {
 
 .button {
   position: fixed;
-  right: 40px;
-  bottom: 46px;
+  right: 70px;
+  bottom: 30px;
   padding: 10px 20px;
-  font-size: 1em;
+  font-size: 1rem;
   color: white;
   background-color: rgb(240, 40, 171);
   border: none;
